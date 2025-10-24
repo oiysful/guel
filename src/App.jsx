@@ -5,6 +5,7 @@ import TopMessage from "./TopMessage.jsx";
 import MainPhoto from "./MainPhoto.jsx";
 import Greeting from "./Greeting.jsx";
 import Calendar from "./Calendar.jsx";
+import Gallery from "./Gallery.jsx";
 
 function App() {
     //테스트 환경에서 div간 경계를 확인하기 위한 용도
@@ -29,7 +30,7 @@ function App() {
                     <Calendar/>
                 </div>
                 <div className="fade-in" style={{border: debug}}>
-                    이미지 갤러리
+                    <Gallery/>
                 </div>
                 <div className="fade-in" style={{border: debug}}>
                     결혼식 장소
