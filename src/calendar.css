@@ -1,0 +1,30 @@
+.calendar {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.calendar th, .calendar td {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.calendar th {
+    /*background-color: rgba(255, 205, 240, 0.281);*/
+    color: #333;
+}
+
+.calendar td {
+    /*background-color: rgb(254, 247, 238);*/
+    color: #333;
+}
+
+.calendar .sunday {
+    color: rgba(255, 0, 0, 0.568);
+}
+
+.calendar .special-day {
+    color: rgba(10, 36, 203, 0.733);
+    border-radius: 50%;
+    outline: 2px solid rgba(174, 191, 133, 0.733)
+}

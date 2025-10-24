@@ -4,6 +4,7 @@ import AudioComponent from "./AudioComponent.jsx";
 import TopMessage from "./TopMessage.jsx";
 import MainPhoto from "./MainPhoto.jsx";
 import Greeting from "./Greeting.jsx";
+import Calendar from "./Calendar.jsx";
 
 function App() {
     //테스트 환경에서 div간 경계를 확인하기 위한 용도
@@ -25,7 +26,7 @@ function App() {
                     <Greeting/>
                 </div>
                 <div className="fade-in" style={{border: debug}}>
-                    달력
+                    <Calendar/>
                 </div>
                 <div className="fade-in" style={{border: debug}}>
                     이미지 갤러리

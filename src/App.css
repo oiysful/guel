@@ -1,23 +1,23 @@
 #root {
-  margin: 0 auto;
-  text-align: center;
-  border-style : solid;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
 }
 
 .main-frame {
-  display: flex;
-  flex-direction: column;
-  color : black;
-  background-color: rgb(251, 251, 251);
-  font-family: MaruBuriLight;
-  width: 100%;
-  max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgb(251, 251, 251);
+    font-family: MaruBuriLight;
+    width: 100%;
+    max-width: 390px;
 }
 
 @media (max-width: 1400px) {
-  .main-frame {
-    width: 100%;
-  }
+    .main-frame {
+        width: 100%;
+    }
 }
 
 @keyframes fadeIn {
